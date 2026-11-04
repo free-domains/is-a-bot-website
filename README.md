@@ -1,5 +1,5 @@
-# is-a.dev Website
-The website for the is-a.dev subdomain service.
+# is-a.bot Website
+The website for the is-a.bot subdomain service.
 
 ---
 
