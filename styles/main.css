@@ -1,16 +1,16 @@
 html,
 body {
-    --header-bg: linear-gradient(90deg, #0d1c1f, var(--hover-bg));
-    --accent: #00d4b4;
-    --body-fg: #c6f0e9;
-    --hover-bg: #1c6b6f;
-    --hover-accent: #4df0d2;
+    --header-bg: linear-gradient(90deg, #0a1426, var(--hover-bg));
+    --accent: #2f7bff;
+    --body-fg: #c4d8f5;
+    --hover-bg: #00357a;
+    --hover-accent: #6ea4ff;
     --styled-border:
-        conic-gradient(#081113 0 0) padding-box, linear-gradient(to right, #0d1c1f 20%, #1c6b6f 80%) border-box;
+        conic-gradient(#060b14 0 0) padding-box, linear-gradient(to right, #0a1426 20%, #00357a 80%) border-box;
 
     margin: 0;
     padding: 0;
-    background-color: #081113;
+    background-color: #060b14;
     color: var(--body-fg);
     font-family: "Roboto Regular", sans-serif;
     line-height: 1.6;
