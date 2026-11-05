@@ -1,16 +1,16 @@
 html,
 body {
-    --header-bg: linear-gradient(90deg, #1a1331, var(--hover-bg));
-    --accent: #7041ff;
-    --body-fg: #d1c4ff;
-    --hover-bg: #4e3aa3;
-    --hover-accent: #9b7dff;
+    --header-bg: linear-gradient(90deg, #0d1c1f, var(--hover-bg));
+    --accent: #00d4b4;
+    --body-fg: #c6f0e9;
+    --hover-bg: #1c6b6f;
+    --hover-accent: #4df0d2;
     --styled-border:
-        conic-gradient(#0f0c19 0 0) padding-box, linear-gradient(to right, #1a1331 20%, #4e3aa3 80%) border-box;
+        conic-gradient(#081113 0 0) padding-box, linear-gradient(to right, #0d1c1f 20%, #1c6b6f 80%) border-box;
 
     margin: 0;
     padding: 0;
-    background-color: #0f0c19;
+    background-color: #081113;
     color: var(--body-fg);
     font-family: "Roboto Regular", sans-serif;
     line-height: 1.6;
@@ -100,7 +100,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     font-size: 1.5rem;
     color: var(--accent);
     border-bottom: 2px solid var(--accent);
@@ -218,29 +218,6 @@ input::placeholder {
     background: var(--accent);
 }
 
-/* List of all subdomains link (all.is-a.dev) */
-@media (min-width: 716px) {
-    main h2:first-of-type {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: flex-end;
-        small {
-            opacity: 0.8;
-            scale: 0.8;
-            translate: 10% 10%;
-            -webkit-translate: 10% 10%;
-            text-decoration: underline;
-            text-decoration-color: #5f39d396;
-            :hover {
-                filter: drop-shadow(0px 0px 5px #5f39d396);
-                -webkit-filter: drop-shadow(0px 0px 5px #5f39d396);
-                padding: 0px;
-            }
-        }
-    }
-}
 @media (max-width: 716px) {
     main h2:first-of-type small {
         display: none;
